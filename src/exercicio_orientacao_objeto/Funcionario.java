@@ -5,12 +5,12 @@ package exercicio_orientacao_objeto;
  */
 public class Funcionario {
 
-    String nome;
-    String departamento;
-    double salario;
-    String dataEntrada;
-    String rg;
-    String cargo = "gerente";
+    public String nome;
+    public String departamento;
+    public double salario;
+    public String dataEntrada;
+    public String rg;
+    public String cargo = "gerente";
 
     public double recebeAumento(double aumento) {
         double novoSalario = this.salario + aumento;
